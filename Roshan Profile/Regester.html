@@ -1,0 +1,48 @@
+<html class="regester-bg">
+<head>
+  <title>Regester Page</title>
+  <link rel="stylesheet" href="css/project.css">
+</head>
+<body>
+  <form Action="LoginPage.html" method="POST" target="_blank">
+  <br>
+  <fieldset>
+    <legend class="legend1">SignUp Details</legend>
+      <b>Name:</b> <input type="text" name="fname" name="reqfield" required min="4" maxlength="15" ><br>
+      <b>Surname:</b> <input type="text" name="fname" name="reqfield" required min="4" maxlength="18" ><br>
+      <b>Username:</b> <input type="text" name="fname" name="reqfield" required min="4" maxlength="18" ><br>
+      <b>Email:</b> <input type="email" name="email" required autofocus><br>
+      <b>Password:</b> <input type="password" name="pass" title="Password should include upper and lower case number and number"><br>
+      <b>Confirm Password:</b> <input type="password" title="Password should include upper and lower case number and number"><br>
+      <b>Gender:</b><input type ="radio" id="female" name="gender">
+          <label for="female">Female</label>
+            <input type ="radio" id="male" name="gender">
+          <label for="male">Male</label><br>
+      <b>Date of Birth:</b><input type="Date" name="bday" min="1999-12-30" max="2000-12-30" >
+      <p><b>Which country you are from?</b></p>
+        <select name="Country">
+          <option value="">Select A Country:</option>
+      <optgroup label="Asia">
+          <option value="6">Nepal</option>
+          <option value="7">India</option>
+          <option value="8">Bangaladesh</option>
+          <option value="9">Pakisthan</option>
+          <option value="10">Bhutan</option>
+      </optgroup>
+     <optgroup label="Europe">
+          <option value="Germany">Germany</option>
+          <option value="2">Spain</option>
+          <option value="3">Portugal</option>
+          <option value="4">France</option>
+          <option value="5">Russia</option>
+     </optgroup>
+
+         <option value="Others">Others</option>
+     </select><br><br><hr>
+    <input type="submit" value="Register" >
+    <input type="Reset" value="Reset" >
+</fieldset>
+
+</form>
+</body>
+</html>
